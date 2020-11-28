@@ -4,3 +4,10 @@ export const selectMovie =(movie) =>{
         payload: movie,
     };
 };
+
+export const trailor =(trailor)=>{
+    return{
+        type:'MOVIE_TRAILOR',
+        payload: trailor,
+    }
+}
