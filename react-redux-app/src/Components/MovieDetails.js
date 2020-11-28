@@ -1,6 +1,6 @@
 import React from 'react'
 // import { connect } from 'react-redux'
-import { trailor} from '../Actions/index';
+
 import { useSelector } from "react-redux";
 
 
@@ -38,7 +38,7 @@ const MovieDetails =() =>{
        
      
             </div>
-            
+          
         </div>
         )
     }

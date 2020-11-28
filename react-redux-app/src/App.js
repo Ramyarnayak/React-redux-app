@@ -1,17 +1,11 @@
-import logo from './logo.svg';
+import React from 'react';
+import { HomePage } from './components/HomePage';
 import './App.css';
 
-import MovieList from './Components/MovieList'
-import MovieDetails from './Components/MovieDetails';
 function App() {
   return (
     <div className="App">
-    <h1>Redux Movies</h1>
-    <div className="container">
-      <MovieList/>
-      <MovieDetails/>
-    </div>
-    
+      <HomePage />
     </div>
   );
 }

@@ -1,8 +1,8 @@
 import React from 'react';
-import {selectMovie , trailor} from '../Actions/index';
+import {selectMovie , trailor} from '../store/actions/postAction';
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
-import MovieTrailor from'./MovieTrailor';
+
 
 const MovieList = (props) =>{
     const dispatch = useDispatch();
@@ -24,8 +24,9 @@ const MovieList = (props) =>{
             <h2>Movie-list</h2>
             <ul>
                 {listItems}
+
             </ul>
-            
+            <MovieDetails/>
 
         </div>
     )
