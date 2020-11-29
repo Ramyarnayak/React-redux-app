@@ -1,0 +1,93 @@
+.properties{
+    max-width: 1000px;
+    padding: 30px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+  }
+ 
+  .ratings {
+    margin-right: 10px;
+    color: purple;
+    padding-left: 10px;
+  }
+  .desc {
+    padding-top: 10px;
+    line-height: 25px;
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
+  .releaseDate {
+    display: inline-block;
+    margin-top: 10px;
+    color: rgb(122, 122, 122);
+  }
+
+  .details-container{
+      border: 2px solid black;
+  
+      max-width:550px;
+      max-height: 1500px;
+      position: relative;
+      top:-2000px;
+      right: -750px;
+  }
+  .poster{
+      height: 250px;
+      width: 180px;
+      margin: 20px;
+  }
+  .headings{
+      font-weight: bold;
+      font-size: 20px;
+
+  }
+  .container{
+    display: grid;
+    grid-row: auto;
+}
+.container2{
+    display: grid;
+    grid-row: auto;
+}
+.title-details{
+    font-weight: bold;
+    font-size: 24px;
+    float: left;
+    padding: 0;
+    margin-left: 0px;
+    margin-top:-300px;
+}
+.movie-desc-details{
+ font-size: 16px;
+ margin-left: 200px;
+ margin-top:-240px;
+ 
+}
+.movie-ratings-details{
+  color:purple;
+  margin-left: 30px;
+  margin-top: -170px;
+}
+.movie-date-details{
+  margin-left: 30px;
+
+  margin-top: -90px;
+  
+}
+.movie-type-details{
+  margin-left: 180px;
+  margin-top: -130px;
+}
+.movie-reviewoneline-details{
+    margin-left: 200px;
+    margin-top: -50px;
+    font-weight: bold;
+    font-size:18px;
+}
+.synopsis, .critics-ratings, .story, .fullreview {
+    margin: 20px;
+    font-size: 16px;
+border: 2px solid lightgray;
+float: left;
+text-align: left;
+}

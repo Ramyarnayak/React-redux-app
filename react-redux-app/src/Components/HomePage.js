@@ -4,7 +4,7 @@ import {PostList} from './PostList';
 import MovieList from './MovieList';
 import MovieDetails from './MovieDetails';
 import AddReview from './AddReview';
-import {Switch, Route} from 'rea'
+
 
 export const HomePage = () => {
   return (
@@ -13,7 +13,7 @@ export const HomePage = () => {
     
       {/* <AddPost />
       <PostList /> */}
-      <AddReview/>
+       {/* <AddReview/>  */}
 
     </>
   )

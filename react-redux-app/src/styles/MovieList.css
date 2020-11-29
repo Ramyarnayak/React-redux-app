@@ -1,0 +1,70 @@
+.movie-card{
+ 
+    display: flex;
+    
+    padding: 30px;
+
+  }
+  /* .list-conatiner{
+      display: flex;
+      border: 2px solid red;
+      flex-direction: row;
+    
+     
+  } */
+  .ul-list{
+      border: 2px solid black;
+      display: flex;
+      flex-wrap: wrap;
+      width:650px;
+      flex-direction: row;
+      
+  }
+  .main{
+   border:  1px solid lightgray;
+    border-radius: 5px;
+    max-width: 500px;
+    max-height: 400px;
+    display: flex;
+    
+    margin: 40px;
+    
+  
+  }
+  .movie-summary{
+      display: grid;
+      grid-row: auto;
+  }
+  .title{
+      font-weight: bold;
+      font-size: 24px;
+      float: left;
+      padding: 0;
+      margin-left: -120px;
+  }
+  .movie-desc{
+   font-size: 16px;
+   
+  }
+.movie-ratings{
+    color:purple;
+    margin-left: -160px;
+    margin-top: -10px;
+}
+.movie-date{
+    margin-left: -160px;
+    
+}
+.movie-type{
+    margin-left: -10px;
+}
+
+.btn-details{
+    width: 100px;
+    margin-left: 50px;
+    margin-top: -13px;
+}
+
+
+    
+  
