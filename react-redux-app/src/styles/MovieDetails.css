@@ -3,6 +3,7 @@
     padding: 30px;
     border: 1px solid lightgray;
     border-radius: 5px;
+    background-color: honeydew
   }
  
   .ratings {
@@ -23,7 +24,7 @@
   }
 
   .details-container{
-      border: 2px solid black;
+      border: 2px solid honeydew;
   
       max-width:550px;
       max-height: 1500px;
@@ -84,10 +85,39 @@
     font-weight: bold;
     font-size:18px;
 }
-.synopsis, .critics-ratings, .story, .fullreview {
+.synopsis {
     margin: 20px;
     font-size: 16px;
-border: 2px solid lightgray;
+
 float: left;
 text-align: left;
+}
+.critics-ratings, .story, .fullreview {
+  margin: 20px;
+  margin-top: 10px;
+  font-size: 16px;
+
+float: left;
+text-align: left;
+}
+
+.content{
+  margin-left: 10px;
+  margin-top: 10px;
+
+}
+
+.english-movie{
+  margin-left: -250px;
+}
+
+.english-movie-desc, .select{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+}
+.select{
+  margin-top: 40px;
+  font-size:20px;
+  color:maroon;
 }
