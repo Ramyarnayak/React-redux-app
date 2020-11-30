@@ -39,7 +39,7 @@ const MovieList = (props) =>{
         <>
          <div class="header"><h1>Welcome to <em>MOVIE_WORLD!!!</em></h1></div>
       
-        <div className="list-conatiner">
+        <div>
             <ul className="ul-list">
                 {listItems}
             </ul>
