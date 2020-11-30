@@ -1,14 +1,11 @@
 .movie-card{
- 
     display: flex;
     background-color: lightgray;
     padding: 30px;
 
   }
- 
   .header{
-    width:100%;
-    
+    width:100%;    
 }
 em{
     color:red;
@@ -22,8 +19,6 @@ em{
     border-radius:15px 15px 0px 0px;
     margin-top: 0px;
 }
-
-
   .ul-list{
      
       background-color: rgba(0,0, 0, 0.9);
