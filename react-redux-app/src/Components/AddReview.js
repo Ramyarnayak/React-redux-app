@@ -17,7 +17,7 @@ const Review =() =>{
                 <div>    
                      {reviews.map((review) => <li className="comment-card">{review.label} 
                         <span>
-                        <button className="faicons" onClick={()=> dispatch(handleDelete(review.id))}>X</button>
+                        <button className="delete-icon" onClick={()=> dispatch(handleDelete(review.id))}>X</button>
                         </span></li>)}
                 </div>   
                 </ul>

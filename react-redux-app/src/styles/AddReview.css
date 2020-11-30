@@ -6,7 +6,7 @@
     margin: 10px;
     
   }
-  .button-class {
+  .button-addreview {
     margin: 2px;
     padding: 5px;
     width: 100px;
@@ -15,7 +15,7 @@
     color: white;
   
   }
-  .comment-card {
+  .review-card {
     position: relative;
     margin-top: 20px;
     padding: 25px 25px;
@@ -27,7 +27,7 @@
     list-style: none;
   }
   
-  .faicons{
+  .delete-icon{
     position: absolute;
     right:10px;
     cursor: pointer;
