@@ -27,8 +27,8 @@ const Review =() =>{
 
 const ReviewInput =() =>{
     const dispatch = useDispatch();
-    const [newReview, setNewTodo]  = useState('');
-    const handleChange = event => setNewTodo(event.target.value);
+    const [newReview, setNewReview]  = useState('');
+    const handleChange = event => setNewReview(event.target.value);
  
       return(
         <>
