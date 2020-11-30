@@ -15,7 +15,7 @@ const Review =() =>{
         return (
                  <ul>
                 <div>    
-                     {reviews.map((review) => <li className="comment-card">{review.label} 
+                     {reviews.map((review) => <li className="review-card">{review.label} 
                         <span>
                         <button className="delete-icon" onClick={()=> dispatch(handleDelete(review.id))}>X</button>
                         </span></li>)}
@@ -33,7 +33,7 @@ const ReviewInput =() =>{
       return(
         <>
         <input className="input-container" placeholder="Write Your Review Here..." value={newReview} onChange={handleChange} type="textarea"/>
-        <button onClick={()=> dispatch(handleAdd(newReview))} className="button-class" value="Submit"> ADD REVIEW</button>
+        <button onClick={()=> dispatch(handleAdd(newReview))} className="button-addreview" value="Submit"> ADD REVIEW</button>
         </>
     )
 }

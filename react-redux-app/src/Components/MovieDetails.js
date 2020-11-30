@@ -12,7 +12,7 @@ const MovieDetails =(props) =>{
         return(
 
         <div className="details-container" >
-            <h2 className="english-movie"> Latest English Movies</h2>
+            <h2 className="english-movie-label"> Latest English Movies</h2>
             <div className="properties">
                 <div className="english-movie-desc">
                     Hollywood is growing with each year and the number of 
@@ -49,18 +49,18 @@ const MovieDetails =(props) =>{
          <div className="container2">
 
          <span className="synopsis">
-             <span className="headings">Synopsis:</span>
+             <span className="label">Synopsis:</span>
              <div className="content">{selectedMovie.synopsis}</div>
          </span>
         
         
         <span className="story">
-            <span className="headings">{selectedMovie.title} story:</span>
+            <span className="label">{selectedMovie.title} story:</span>
             <div className="content">{selectedMovie.story}</div>
         </span>
         
          <span className="fullreview">
-             <span className="headings">{selectedMovie.title} Movie Review:</span>
+             <span className="label">{selectedMovie.title} Movie Review:</span>
             <div className="content">{selectedMovie.reviewdetail}</div>
         </span>
 

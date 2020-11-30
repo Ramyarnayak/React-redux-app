@@ -37,7 +37,7 @@
       width: 180px;
       margin: 20px;
   }
-  .headings{
+  .label{
       font-weight: bold;
       font-size: 20px;
 
@@ -107,7 +107,7 @@ text-align: left;
 
 }
 
-.english-movie{
+.english-movie-label{
   margin-left: -250px;
 }
 
